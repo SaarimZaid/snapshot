@@ -45,7 +45,7 @@ function App() {
       <input onChange={(e)=>{searchData.current = e.target.value}} placeholder='Saarim Zaid' />
       <button onClick={()=>{setSearchText(searchData.current)}}>Search</button>
       <section className='btn'>
-        <button onClick={()=>{setSearchText('mountain')}}>Mountain</button>
+        <button onClick={()=>{setSearchText('mountains')}}>Mountain</button>
         <button onClick={()=>{setSearchText('beaches')}}>Beaches</button>
         <button onClick={()=>{setSearchText('birds')}}>Birds</button>
         <button onClick={()=>{setSearchText('food')}}>food</button>
